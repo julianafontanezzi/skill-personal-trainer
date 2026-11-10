@@ -68,17 +68,45 @@ personal/
 
 ## 🚀 Installation
 
-### Claude Code
-1. Download this repository: on its GitHub page, click the green **Code** button and choose **Download ZIP** (or clone it with Git), then unzip it.
-2. Copy the `personal` folder into the Claude Code skills folder:
-   - **Windows:** `C:\Users\YOUR-USER\.claude\skills\personal`
-   - **macOS / Linux:** `~/.claude/skills/personal`
+You need a copy of the `personal` folder (the one that contains `SKILL.md`). Pick the way that matches how you use Claude.
 
-### Claude app or website
-1. Zip the `personal` folder into a `.zip` file (`SKILL.md` must sit inside the `personal` folder).
-2. In the **Skills** area of the settings, upload the file.
+### Step 0: get the files
+1. On this page, click the green **Code** button and choose **Download ZIP**.
+2. Unzip the downloaded file. Inside you will find a folder called `personal`. That is the skill.
 
-> 💾 **Important tip:** for the agent to **remember you between conversations**, always use the **same working folder**. That is where it creates the `clients/` folder with your data. For example, create a folder called `my-personal` and always open Claude in it.
+### Option A: Claude app or claude.ai (no coding needed)
+1. Make a `.zip` of the **`personal` folder itself**:
+   - **Windows:** right-click the `personal` folder → **Send to** → **Compressed (zipped) folder**.
+   - **macOS:** right-click the `personal` folder → **Compress "personal"**.
+2. Open Claude and go to **Settings** → **Capabilities** (the menu may be called **Customize** in newer versions) → **Skills**.
+3. Click **Upload skill** and choose the `personal.zip` file.
+4. Make sure the **Personal** skill is switched **on**.
+
+> The zip must contain the `personal` folder with `SKILL.md` directly inside it. If you zip the whole downloaded repository, the upload will not work. Skills may require a plan or a setting (such as code execution) to be enabled in your account; menu names can vary between versions.
+
+### Option B: Claude Code (terminal)
+Copy the `personal` folder into your skills folder:
+
+- **For all your projects:**
+  - **Windows:** `C:\Users\YOUR-USER\.claude\skills\personal`
+  - **macOS / Linux:** `~/.claude/skills/personal`
+- **For one project only:** `.claude/skills/personal` inside that project folder.
+
+Close and reopen Claude Code so it loads the new skill.
+
+### Check that it works
+Start a new conversation and write: **"I want to start training, can we do my assessment?"** If the skill is active, Claude will start with a few safety questions (PAR-Q) instead of a generic answer. You can also ask Claude: *"Which skills do you have available?"*
+
+### Make it remember you between conversations
+The agent saves your profile, workouts, sessions and measurements as files in a `clients/` folder **inside the folder where you are working**. So:
+1. Create one folder just for this, for example `my-personal`.
+2. **Always** open Claude (or Claude Code) in that same folder.
+
+If you work in a different folder each time, the agent will not find your history and will start from zero. Your data never leaves your computer through this repository, and the `clients/` folder is ignored by Git.
+
+### Update or remove
+- **Update:** download the new version and replace the `personal` folder (or upload the new zip). Your `clients/` folder is separate and is not touched.
+- **Remove:** delete the `personal` folder from your skills folder, or switch the skill off in **Settings → Capabilities → Skills**.
 
 > 🌍 **Language:** the files are in English, but the agent replies in whatever language you write to it.
 
