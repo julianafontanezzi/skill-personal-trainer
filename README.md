@@ -1,6 +1,6 @@
 # 🏋️ Personal: a personal trainer agent for Claude
 
-> **An idea by 0xFONTA**: turn Claude into a personal trainer that truly coaches you, workout by workout, month by month, including live during your session at the gym.
+> **An idea by [JulianaFontanezzi](https://github.com/julianafontanezzi)**: turn Claude into a personal trainer that truly coaches you, workout by workout, month by month, including live during your session at the gym.
 
 ![Type](https://img.shields.io/badge/type-Claude%20skill-blue)
 ![Language](https://img.shields.io/badge/language-English-green)
@@ -12,7 +12,7 @@
 
 We have all been there: you download a workout plan from the internet, follow it for three months and never adjust it. Nobody remembers your load from last week, nobody asks how your shoulder felt, nobody knows what you like or hate doing.
 
-**The idea behind this skill, created by 0xFONTA, is simple and ambitious:** what if Claude could be your personal trainer, chatting with you *while you are at the gym*, remembering everything about you and adjusting your training over time?
+**The idea behind this skill, created by JulianaFontanezzi, is simple and ambitious:** what if Claude could be your personal trainer, chatting with you *while you are at the gym*, remembering everything about you and adjusting your training over time?
 
 That is how **Personal** was born: an agent that does not just "build a workout" but **runs a full coaching relationship**, the way a good professional would.
 
@@ -128,14 +128,14 @@ Suggestions and contributions are very welcome! Open an *issue* or a *pull reque
 
 ## 👤 Credits
 
-**Original idea, concept and project direction: 0xFONTA**
+**Original idea, concept and project direction: [JulianaFontanezzi](https://github.com/julianafontanezzi)**
 
-The vision of an AI personal trainer that coaches you live at the gym, remembers your history and works together with your dietitian is the creation of 0xFONTA. The files were built with the help of [Claude](https://claude.com), following 0xFONTA's instructions and decisions throughout development.
+The vision of an AI personal trainer that coaches you live at the gym, remembers your history and works together with your dietitian is the creation of JulianaFontanezzi.
 
-If this project helped you, leave a ⭐ on the repository and tag 0xFONTA when you share it.
+If this project helped you, leave a ⭐ on the repository and tag JulianaFontanezzi when you share it.
 
 ---
 
 ## 📄 License
 
-Released under the [MIT License](LICENSE). Copyright (c) 2026 0xFONTA. You are free to use, copy and modify this project, as long as the copyright notice and the license text are kept with it.
+Released under the [MIT License](LICENSE). Copyright (c) 2026 JulianaFontanezzi. You are free to use, copy and modify this project, as long as the copyright notice and the license text are kept with it.
