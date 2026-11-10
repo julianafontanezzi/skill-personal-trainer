@@ -1,0 +1,7 @@
+# Client personal data: NEVER publish
+clients/
+**/clients/
+
+# System files
+.DS_Store
+Thumbs.db
