@@ -1,6 +1,6 @@
 # 🏋️ Personal: a personal trainer agent for Claude
 
-> **An idea by [0xFONTA](https://github.com/0xFONTA)**: turn Claude into a personal trainer that truly coaches you, workout by workout, month by month, including live during your session at the gym.
+> **An idea by 0xFONTA**: turn Claude into a personal trainer that truly coaches you, workout by workout, month by month, including live during your session at the gym.
 
 ![Type](https://img.shields.io/badge/type-Claude%20skill-blue)
 ![Language](https://img.shields.io/badge/language-English-green)
@@ -69,10 +69,7 @@ personal/
 ## 🚀 Installation
 
 ### Claude Code
-1. Download or clone this repository:
-   ```bash
-   git clone https://github.com/0xFONTA/skill-personal-trainer.git
-   ```
+1. Download this repository: on its GitHub page, click the green **Code** button and choose **Download ZIP** (or clone it with Git), then unzip it.
 2. Copy the `personal` folder into the Claude Code skills folder:
    - **Windows:** `C:\Users\YOUR-USER\.claude\skills\personal`
    - **macOS / Linux:** `~/.claude/skills/personal`
@@ -131,7 +128,7 @@ Suggestions and contributions are very welcome! Open an *issue* or a *pull reque
 
 ## 👤 Credits
 
-**Original idea, concept and project direction: [0xFONTA](https://github.com/0xFONTA)**
+**Original idea, concept and project direction: 0xFONTA**
 
 The vision of an AI personal trainer that coaches you live at the gym, remembers your history and works together with your dietitian is the creation of 0xFONTA. The files were built with the help of [Claude](https://claude.com), following 0xFONTA's instructions and decisions throughout development.
 
@@ -141,4 +138,4 @@ If this project helped you, leave a ⭐ on the repository and tag 0xFONTA when y
 
 ## 📄 License
 
-*To be defined by 0xFONTA.* Suggestion: [MIT](https://choosealicense.com/licenses/mit/) (free use, keeping the credit) or [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (free use with mandatory attribution).
+Released under the [MIT License](LICENSE). Copyright (c) 2026 0xFONTA. You are free to use, copy and modify this project, as long as the copyright notice and the license text are kept with it.
